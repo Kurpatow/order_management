@@ -7,7 +7,7 @@ public class Order {
     private int customerId;
     private Date orderDate;
 
-    private int getOrderId() { return orderId; }
+    public int getOrderId() { return orderId; }
 
     public void setOrderId(int orderId) { this.orderId = orderId; }
 
